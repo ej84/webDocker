@@ -1,0 +1,27 @@
+body{
+    background-color: dimgrey;
+}
+
+body p{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 2em 4em 2em 4em;
+    background-color: lightslategray;
+}
+
+.card{
+    position: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategray;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
