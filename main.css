@@ -24,4 +24,7 @@ body p{
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
