@@ -43,13 +43,6 @@ p{
     text-align:center;
 }
 
-body ul{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    padding: 2em 4em 2em 4em;
-    background-color: lightslategray;
-}
 
 body li{
     border-style: solid;
