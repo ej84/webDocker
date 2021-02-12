@@ -57,7 +57,34 @@
 
     <p>For this tutorial, you will be connecting Docker to Pycharm in order to write Python code.</p>
 
+    <p>
+        Step 1: Ensure you have a secure internet connection and install Docker Desktop.
+    </p>
 
+    <p>
+        Step 2: Enable connection to Docker via the TCP protocol: Right-click the Docker icon Docker icon
+        on the Notification bar on the Notification bar, select Settings from the context menu,
+        and then <b>select the Expose daemon on tcp://localhost:2375 without TLS checkbox</b> in the General
+        section of your system Docker settings.
+    </p>
+
+    <p>
+        Step 3: Configure the Docker daemon connection settings:
+    </p>
+    <ul>
+        <li>In the <b>Settings/Preferences</b> dialog Ctrl+Alt+S, select Build, Execution, Deployment | Docker.</li>
+        <li>Click the <b>+</b>  button to add a Docker configuration and specify how to connect to the Docker daemon.</li>
+        <li>The <b>Connection successful</b> message should appear at the bottom of the dialog.</li>
+    </ul>
+
+    <p>
+        Step 4: Connect to the Docker daemon.
+    </p>
+
+    <ul>
+        <li>The configured Docker connection should appear in the <b>Services tool window
+            (View | Tool Windows | Services or Alt+8)</b>. Select <b>Connect</b> from the context menu.</li>
+    </ul>
     <br>
     <footer class="footer page-footer font-small ">
         <div class="container">
